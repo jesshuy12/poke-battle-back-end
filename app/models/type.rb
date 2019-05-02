@@ -1,4 +1,4 @@
 class Type < ApplicationRecord
   has_many :pokemons
-  has_many :types
+  has_many :moves
 end
