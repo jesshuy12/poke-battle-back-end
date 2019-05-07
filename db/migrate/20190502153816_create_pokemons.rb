@@ -6,7 +6,6 @@ class CreatePokemons < ActiveRecord::Migration[5.2]
         t.integer "hp"
         t.string "frontURL"
         t.string "backURL"
-        t.integer "move_id"
         t.integer "type_id"
       t.timestamps
     end
