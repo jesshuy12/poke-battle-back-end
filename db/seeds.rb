@@ -96,8 +96,8 @@ curse = Move.create(name:"Curse", damage: 5, type_id: 12) #65
 shadow_punch = Move.create(name:"Shadow Punch", damage: 15, type_id: 7) #66
 fairy_dust = Move.create(name:"Fairy Dust", damage: 10, type_id: 9) #67
 fairy_slice = Move.create(name:"Fairy Slice", damage: 10, type_id: 9) #68
-splash = Move.create(name:"Splash", damage: 100, type_id: 3)
-sing = Move.create(name:"Sing", damage: 100, type_id: 4)
+splash = Move.create(name:"Splash", damage: 100, type_id: 3) #69
+sing = Move.create(name:"Sing", damage: 100, type_id: 4) #70
 
 # POKEMON ######################################################################
 
@@ -113,6 +113,24 @@ dewgong = Pokemon.create(name:"dewgong",pokeID: 87, hp: 100, frontURL:"https://r
 gengar = Pokemon.create(name:"gengar",pokeID: 94, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/94.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/94.png", type_id: 12) #10
 gyarados = Pokemon.create(name:"gyarados",pokeID: 130, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/130.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/130.png",type_id: 8) #11
 dragonite = Pokemon.create(name:"dragonite",pokeID: 149, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/149.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/149.png", type_id: 8) #12
+ivysaur = Pokemon.create(name:"Ivysaur", pokeID: 2, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/2.png", type_id: 2) #13
+charmander = Pokemon.create(name: "Charmander", pokeID: 4, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/4.png", type_id: 1) #14
+charmeleon = Pokemon.create(name:"Charmeleon", pokeID: 5, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/5.png", type_id: 1) #15
+squirtle = Pokemon.create(name:"Squirtle", pokeID: 7, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/7.png", type_id: 3) #16
+butterfree = Pokemon.create(name:"butterfree", pokeID: 12, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/12.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/12.png", type_id: 6) #17
+pidgeot = Pokemon.create(name:"Pidgeot", pokeID: 18, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/18.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/18.png", type_id: 11) #18
+nidoqueen = Pokemon.create(name:"Nidoqueen", pokeID: 31, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/31.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/31.png", type_id: 13) #19
+nidoking = Pokemon.create(name:"Nidoking", pokeID: 34, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/34.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/34.png", type_id: 13) #20
+clefairy = Pokemon.create(name:"Clefairy", pokeID: 35, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/35.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/35.png", type_id: 9) #21
+ninetales = Pokemon.create(name:"Ninetales", pokeID: 38, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/38.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/38.png", type_id: 1) #22
+vileplume = Pokemon.create(name:"Vileplume", pokeID: 45, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/45.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/45.png", type_id: 2) #23
+parasect = Pokemon.create(name:"Parasect", pokeID: 47, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/47.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/47.png", type_id: 6) #24
+venomoth = Pokemon.create(name:"Venomoth", pokeID: 49, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/49.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/49.png", type_id: 6) #25
+psyduck = Pokemon.create(name:"Psyduck", pokeID: 54, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/54.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/54.png", type_id: 3) #26
+primeape = Pokemon.create(name:"Primeape", pokeID: 57, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/57.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/57.png", type_id: 10) #27
+rapidash = Pokemon.create(name:"Rapidash", pokeID: 78, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/78.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/78.png", type_id: 1) #28
+muk = Pokemon.create(name:"Muk", pokeID: 89, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/89.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/89.png", type_id: 15) #29
+magikarp = Pokemon.create(name:"Magikarp", pokeID: 129, hp: 100, frontURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/129.png", backURL:"https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/back/129.png", type_id: 3) #30
 
 # POKEMON MOVES ################################################################
 #venusaur
@@ -139,7 +157,7 @@ PokemonMove.create(pokemon_id: 4, move_id: 59)
 PokemonMove.create(pokemon_id: 5, move_id: 4)
 PokemonMove.create(pokemon_id: 5, move_id: 67)
 PokemonMove.create(pokemon_id: 5, move_id: 68)
-PokemonMove.create(pokemon_id: 5, move_id: 31)
+PokemonMove.create(pokemon_id: 5, move_id: 70)
 #arcanine
 PokemonMove.create(pokemon_id: 6, move_id: 19)
 PokemonMove.create(pokemon_id: 6, move_id: 20)
@@ -175,3 +193,93 @@ PokemonMove.create(pokemon_id: 12, move_id: 15)
 PokemonMove.create(pokemon_id: 12, move_id: 16)
 PokemonMove.create(pokemon_id: 12, move_id: 23)
 PokemonMove.create(pokemon_id: 12, move_id: 26)
+#ivysaur
+PokemonMove.create(pokemon_id: 13, move_id: 32)
+PokemonMove.create(pokemon_id: 13, move_id: 33)
+PokemonMove.create(pokemon_id: 13, move_id: 1)
+PokemonMove.create(pokemon_id: 13, move_id: 61)
+#charmander
+PokemonMove.create(pokemon_id: 14, move_id: 19)
+PokemonMove.create(pokemon_id: 14, move_id: 21)
+PokemonMove.create(pokemon_id: 14, move_id: 10)
+PokemonMove.create(pokemon_id: 14, move_id: 4)
+#charmeleon
+PokemonMove.create(pokemon_id: 15, move_id: 20)
+PokemonMove.create(pokemon_id: 15, move_id: 21)
+PokemonMove.create(pokemon_id: 15, move_id: 22)
+PokemonMove.create(pokemon_id: 15, move_id: 4)
+#squirtle
+PokemonMove.create(pokemon_id: 16, move_id: 54)
+PokemonMove.create(pokemon_id: 16, move_id: 53)
+PokemonMove.create(pokemon_id: 16, move_id: 10)
+PokemonMove.create(pokemon_id: 16, move_id: 36)
+#butterfree
+PokemonMove.create(pokemon_id: 17, move_id: 61)
+PokemonMove.create(pokemon_id: 17, move_id: 63)
+PokemonMove.create(pokemon_id: 17, move_id: 40)
+PokemonMove.create(pokemon_id: 17, move_id: 41)
+#pidgeot
+PokemonMove.create(pokemon_id: 18, move_id: 23)
+PokemonMove.create(pokemon_id: 18, move_id: 37)
+PokemonMove.create(pokemon_id: 18, move_id: 49)
+PokemonMove.create(pokemon_id: 18, move_id: 62)
+#nidoqueen
+PokemonMove.create(pokemon_id: 19, move_id: 45)
+PokemonMove.create(pokemon_id: 19, move_id: 46)
+PokemonMove.create(pokemon_id: 19, move_id: 47)
+PokemonMove.create(pokemon_id: 19, move_id: 18)
+#Nidoking
+PokemonMove.create(pokemon_id: 20, move_id: 45)
+PokemonMove.create(pokemon_id: 20, move_id: 46)
+PokemonMove.create(pokemon_id: 20, move_id: 47)
+PokemonMove.create(pokemon_id: 20, move_id: 18)
+#clefairy
+PokemonMove.create(pokemon_id: 21, move_id: 67)
+PokemonMove.create(pokemon_id: 21, move_id: 68)
+PokemonMove.create(pokemon_id: 21, move_id: 31)
+PokemonMove.create(pokemon_id: 21, move_id: 12)
+#ninetales
+PokemonMove.create(pokemon_id: 22, move_id: 19)
+PokemonMove.create(pokemon_id: 22, move_id: 20)
+PokemonMove.create(pokemon_id: 22, move_id: 21)
+PokemonMove.create(pokemon_id: 22, move_id: 22)
+#vileplume
+PokemonMove.create(pokemon_id: 23, move_id: 44)
+PokemonMove.create(pokemon_id: 23, move_id: 32)
+PokemonMove.create(pokemon_id: 23, move_id: 33)
+PokemonMove.create(pokemon_id: 23, move_id: 1)
+#parasect
+PokemonMove.create(pokemon_id: 24, move_id: 60)
+PokemonMove.create(pokemon_id: 24, move_id: 61)
+PokemonMove.create(pokemon_id: 24, move_id: 63)
+PokemonMove.create(pokemon_id: 24, move_id: 38)
+#venomoth
+PokemonMove.create(pokemon_id: 25, move_id: 60)
+PokemonMove.create(pokemon_id: 25, move_id: 61)
+PokemonMove.create(pokemon_id: 25, move_id: 62)
+PokemonMove.create(pokemon_id: 25, move_id: 63)
+#psyduck
+PokemonMove.create(pokemon_id: 26, move_id: 54)
+PokemonMove.create(pokemon_id: 26, move_id: 55)
+PokemonMove.create(pokemon_id: 26, move_id: 53)
+PokemonMove.create(pokemon_id: 26, move_id: 25)
+#primeape
+PokemonMove.create(pokemon_id: 27, move_id: 12)
+PokemonMove.create(pokemon_id: 27, move_id: 13)
+PokemonMove.create(pokemon_id: 27, move_id: 14)
+PokemonMove.create(pokemon_id: 27, move_id: 48)
+#rapidash
+PokemonMove.create(pokemon_id: 28, move_id: 6)
+PokemonMove.create(pokemon_id: 28, move_id: 20)
+PokemonMove.create(pokemon_id: 28, move_id: 21)
+PokemonMove.create(pokemon_id: 28, move_id: 22)
+#muk
+PokemonMove.create(pokemon_id: 29, move_id: 50)
+PokemonMove.create(pokemon_id: 29, move_id: 51)
+PokemonMove.create(pokemon_id: 29, move_id: 39)
+PokemonMove.create(pokemon_id: 29, move_id: 40)
+#Magikarp
+PokemonMove.create(pokemon_id: 30, move_id: 54)
+PokemonMove.create(pokemon_id: 30, move_id: 69)
+PokemonMove.create(pokemon_id: 30, move_id: 55)
+PokemonMove.create(pokemon_id: 30, move_id: 53)
